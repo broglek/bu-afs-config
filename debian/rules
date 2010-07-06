@@ -1,0 +1,20 @@
+#!/usr/bin/make -f
+
+DEB_DIVERT_EXTENSION = .bu
+
+DEB_DIVERT_FILES_bu-afs-config += \
+	/etc/openafs/afs.conf.client.bu \
+        /etc/openafs/CellAlias.bu \
+        /etc/openafs/CellServDB.bu \
+        /etc/openafs/SuidCells.bu \
+        /etc/openafs/ThisCell.bu \
+        /etc/openafs/cacheinfo.bu
+
+DEB_TRANSFORM_FILES_bu-afs-config += \
+        /etc/openafs/afs.conf.bu
+
+include /usr/share/cdbs/1/rules/debhelper.mk
+include /usr/share/cdbs/1/rules/config-package.mk
+
+
+

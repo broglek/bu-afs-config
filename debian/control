@@ -1,0 +1,15 @@
+Source: bu-afs-config
+Section: utils
+Priority: extra
+Maintainer: Kyle Brogle <broglek@bu.edu>
+Build-Depends: cdbs, debhelper (>= 7.4.15ubuntu1), config-package-dev (>= 4.5~),openafs-client
+Standards-Version: 3.8.4
+
+Package: bu-afs-config
+Architecture: all
+Depends: openafs-client, openafs-modules-dkms, openafs-krb5, ${misc:Depends}
+Provides: ${diverted-files}
+Conflicts: ${diverted-files}
+Description: AFS configuration for Boston University
+ This package uses config-package-dev to backup current OpenAFS config and
+ installs configuration files for Boston University.	     

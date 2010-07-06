@@ -1,0 +1,6 @@
+bu-afs-config (0.01) unstable; urgency=low
+
+  * First Version; configures OpenAFS for Boston University cellDB servers
+
+ -- Kyle Brogle <broglek@bu.edu>  Mon, 05 Jul 2010 18:55:31 -0400
+

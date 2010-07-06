@@ -1,0 +1,6 @@
+debian/afs.conf.client.bu etc/openafs
+debian/CellAlias.bu etc/openafs
+debian/CellServDB.bu etc/openafs
+debian/SuidCells.bu etc/openafs
+debian/ThisCell.bu etc/openafs
+debian/cacheinfo.bu etc/openafs

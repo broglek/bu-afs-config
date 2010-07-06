@@ -1,0 +1,3 @@
+A debian package, built using config-package-dev, to divert currently
+installed OpenAFS config files and install config files to facilitate use
+of Boston University's AFS cells.
