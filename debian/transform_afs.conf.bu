@@ -1,5 +1,4 @@
 #!/usr/bin/perl -0p
 
 s/^OPTIONS=(AUTOMATIC|\$MEDIUM)$/OPTIONS="-stat 10000 -daemons 6 -volumes
-20\
-0"/m or die;
+20"/m or die;

@@ -22,6 +22,9 @@ set -e
 
 case "$1" in
     configure)
+	if [ ! -d /var/cache/afs ]; then
+            mkdir /var/cache/afs
+	fi
 	if hash invoke-rc.d; then
 	    invoke-rc.d openafs-client restart || true
 	else
