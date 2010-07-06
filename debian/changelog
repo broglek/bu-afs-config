@@ -1,3 +1,10 @@
+bu-afs-config (0.02) unstable; urgency=low
+
+  * Fixed bug in transform file.
+  * added check for /var/cache/afs to postinst
+
+ -- Kyle Brogle <broglek@bu.edu>  Tue, 06 Jul 2010 12:26:59 -0400
+
 bu-afs-config (0.01) unstable; urgency=low
 
   * First Version; configures OpenAFS for Boston University cellDB servers
